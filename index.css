@@ -1,0 +1,9 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#bginit{
+  background-image: url(back.jpeg);
+  width: 100%;
+}

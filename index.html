@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div id="bginit">
+    </div>
+    <p>hi guys</p>
+    <p>hi guys</p>
+    <p>hi guys</p>
+    <p>hi guys</p>
+    <p>hi guys</p>
+  </body>
+  <script>
+    document.getElementById("bginit").style.height = window.innerHeight + 'px';
+    window.addEventListener("resize", function(){
+      console.log(window.innerHeight)
+      console.log(document.getElementById("bginit").style.height)
+      document.getElementById("bginit").style.height = window.innerHeight + 'px';
+      console.log(document.getElementById("bginit").style.height)
+});
+  </script>
+</html>
