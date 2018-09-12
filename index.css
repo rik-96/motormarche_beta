@@ -152,6 +152,7 @@
 
 .img-thumbnail{
   height: 50%;
+  width: 150px;
   padding: 2%;
   margin-bottom: 5%;
 }
@@ -253,6 +254,9 @@ footer{
   .thumb:not(:first-child):not(:last-child){
     border-left-width: 0px;
     border-right-width: 0px;
+  }
+  .img-thumbnail{
+    width: 200px;
   }
   .row{
     margin: 0;
