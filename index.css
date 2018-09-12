@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #cf3721;
-  font-size: calc(25px + 5vw);
+  font-size: calc(30px + 5vw);
   text-align: center;
   font-family: 'Dancing Script'/*'Istok Web'*/;
 }
@@ -21,7 +21,7 @@
 }
 
 #tagline{
-  font-size: calc(8px + 1vw);
+  font-size: calc(10px + 1vw);
   font-family: 'Dancing Script';
 }
 
