@@ -186,6 +186,7 @@
 
 footer{
   overflow: auto;
+  margin-top: 5%;
 }
 
 #footer-head{
@@ -213,6 +214,7 @@ footer{
 #footer-body{
   text-align: center;
   width: 100%;
+  margin-top: 2%;
 }
 
 #footer-list li{
