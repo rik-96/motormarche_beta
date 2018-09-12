@@ -13,7 +13,11 @@ function appearDropDown(){
 
 setTimeout(function(){
   $('#tagline').fadeIn();
-}, 2000);
+}, 1000);
+
+setTimeout(function(){
+  $('#home-title').fadeIn();
+}, 1000);
 
 var animateHTML = function() {
   var elems;

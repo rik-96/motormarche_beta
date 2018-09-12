@@ -17,19 +17,7 @@
 }
 
 #home-title{
-  letter-spacing: .15em;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 4s steps(40, end);
-  margin-left: auto;
-  margin-right: auto;
-  width: 0;
-  animation-fill-mode: forwards;
-}
-
-@keyframes typing {
-    from {width: 0}
-    to {width: 100%}
+  display: none;
 }
 
 #floater{
@@ -88,7 +76,7 @@
   display: block;
   color: #555;/*#4d4dff*/
   text-align: center;
-  margin: 2%;
+  margin: 2% 2% 0 2%;
   text-decoration: none;
   font-size: calc(7px + 0.8vw);
 }
@@ -135,7 +123,7 @@
   font-family: 'Dancing Script';
   font-size: calc(5px + 3vw);
   text-align: center;
-  margin: 7% 0 3% 0;
+  margin: 7% 0 0 0;
 }
 
 .content{
@@ -264,7 +252,7 @@ hr.styled:after { content: "§"; display: inline-block; position: relative; top:
   }
   #navbar a{
     border: 0px solid #4d4dff;
-    margin: 3%;
+    margin: 3% 3% 0 3%;
   }
   #navbar a:hover{
     border: 0px solid #4d4dff;
