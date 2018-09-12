@@ -81,12 +81,13 @@
 }
 
 #navbar a{
-  border-bottom: 1px solid transparent;
+  border: 1px solid transparent;
   -webkit-transition: all 0.5s ease-in 0s;
   transition: all 0.5s ease-in 0s;
+  padding: 0.5% 1%;
 }
 
-#navbar > a:hover{
+#navbar > a:not(#navbar-brand):hover{
   color: #cf3721;/* #bc13fe */
 }
 
@@ -223,6 +224,9 @@ footer{
   #navbar .icon{
     float: right;
     display: block;
+  }
+  #navbar #navbar-brand{
+    margin-bottom: 5%;
   }
 }
 
