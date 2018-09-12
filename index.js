@@ -39,7 +39,7 @@ var animateHTML = function() {
       var positionFromTop = elems[i].getBoundingClientRect().top;
       if (positionFromTop - windowHeight <= 0) {
         elems[i].className = elems[i].className.replace(
-          'hidden',
+          'hidden-view',
           'fade-in-element'
         );
       }
