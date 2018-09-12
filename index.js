@@ -11,6 +11,10 @@ function appearDropDown(){
   }
 }
 
+setTimeout(function(){
+  $('#tagline').fadeIn();
+}, 2000);
+
 var animateHTML = function() {
   var elems;
   var windowHeight;
