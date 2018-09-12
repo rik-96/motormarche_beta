@@ -5,7 +5,7 @@
 }
 
 #bginit{
-  background-image: url(back4.jpeg);
+  background-image: url(back2.jpg);
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 
 #scroll{
   width: 10%;
-  border: 2px solid #fff;
+  border: 2px solid #cf3721;
   border-radius: 5%;
   font-size: calc(5px + 1.5vw);
   font-family: 'Trebuchet MS';
@@ -40,7 +40,7 @@
 }
 
 #scroll a{
-  color: #fff;
+  color: #cf3721;
 }
 
 #scroll a:after{
@@ -243,7 +243,7 @@ hr.styled:after { content: "§"; display: inline-block; position: relative; top:
 
 @media screen and (max-width: 600px){
   #home-title{
-    margin-top: 30%;
+    margin-top: 20%;
   }
   #navbar a{
     border: 0px solid #4d4dff;
@@ -272,7 +272,7 @@ hr.styled:after { content: "§"; display: inline-block; position: relative; top:
   }
   #scroll{
     width: 20%;
-    border: 1px solid #fff;
+    border: 1px solid #cf3721;
     margin-bottom: 20%;
   }
   #navbar .fr{
