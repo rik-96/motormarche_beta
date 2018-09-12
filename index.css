@@ -12,18 +12,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #cf3721;
-  font-size: calc(10px + 5vw);
+  font-size: calc(25px + 5vw);
   text-align: center;
   font-family: 'Istok Web';
-  vertical-align: middle;
 }
 
 #floater{
-  height: 12%;
+  height: 8%;
 }
 
 #tagline{
-  font-size: calc(3px + 1vw);
+  font-size: calc(8px + 1vw);
   font-family: 'Trebuchet MS';
 }
 
