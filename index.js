@@ -1,5 +1,3 @@
-
-
 function appearDropDown(){
   var x = document.getElementById("navbar");
   if (x.className === "topnav" || x.className === "topnav sticky"){
@@ -12,3 +10,43 @@ function appearDropDown(){
     x.className = "topnav sticky";
   }
 }
+
+var animateHTML = function() {
+  var elems;
+  var windowHeight;
+  function init() {
+    elems = document.querySelectorAll('.hidden-view');
+    console.log(elems);
+    if ($(window).width() < 1025){
+        for (var i = 0; i < elems.length; i++) {
+            elems[i].className = elems[i].className.replace(
+              'hidden',
+              ''
+            );
+        }
+    return
+    }
+    windowHeight = window.innerHeight;
+    addEventHandlers();
+    checkPosition();
+  }
+  function addEventHandlers() {
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+  }
+  function checkPosition() {
+    for (var i = 0; i < elems.length; i++) {
+      var positionFromTop = elems[i].getBoundingClientRect().top;
+      if (positionFromTop - windowHeight <= 0) {
+        elems[i].className = elems[i].className.replace(
+          'hidden',
+          'fade-in-element'
+        );
+      }
+    }
+  }
+  return {
+    init: init
+  };
+};
+animateHTML().init();

@@ -4,6 +4,21 @@
   box-sizing:border-box;
   font-family: sans-serif;
 }
+
+.hidden-view{
+  opacity: 0;
+}
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+
 #bginit{
   background-image: url(back1.jpeg);
   width: 100%;
@@ -69,7 +84,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #222;/*#4d4dff*/
+  color: #555;/*#4d4dff*/
   text-align: center;
   margin: 2%;
   text-decoration: none;
@@ -81,14 +96,17 @@
 }
 
 #navbar a{
-  border: 1px solid transparent;
   -webkit-transition: all 0.5s ease-in 0s;
   transition: all 0.5s ease-in 0s;
   padding: 0.5% 1%;
 }
 
 #navbar > a:not(#navbar-brand):hover{
-  color: #cf3721;/* #bc13fe */
+  color: #222;/* #bc13fe */
+}
+
+#navbar #navbar-brand{
+  color: #222;
 }
 
 .topnav .icon{
@@ -240,6 +258,7 @@ footer{
   #scroll{
     width: 20%;
     border: 1px solid #fff;
+    margin-bottom: 20%;
   }
   #navbar .fr{
     float: none;
