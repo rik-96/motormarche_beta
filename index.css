@@ -243,7 +243,7 @@ hr.styled:after { content: "§"; display: inline-block; position: relative; top:
 
 @media screen and (max-width: 600px){
   #home-title{
-    margin-top: 20%;
+    margin-top: 15%;
   }
   #navbar a{
     border: 0px solid #4d4dff;
