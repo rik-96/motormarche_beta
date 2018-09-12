@@ -73,7 +73,7 @@
   text-align: center;
   margin: 2%;
   text-decoration: none;
-  font-size: calc(5px + 1vw);
+  font-size: calc(7px + 0.8vw);
 }
 
 #navbar .fr{
@@ -86,16 +86,21 @@
   padding: 0.5% 1%;
 }
 
-#navbar > a:not(#navbar-brand):hover{
+#navbar > a:not(.navbar-brand):hover{
   color: #222;/* #bc13fe */
 }
 
-#navbar #navbar-brand{
+#navbar .navbar-brand{
   color: #222;
+  font-size: calc(15px + 0.8vw);;
 }
 
 .topnav .icon{
   display: none;
+}
+
+.topnav .icon i{
+  margin-right: 15px;
 }
 
 .hrofhead {
